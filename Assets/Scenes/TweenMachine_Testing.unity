@@ -226,8 +226,10 @@ GameObject:
   - component: {fileID: 520992467}
   - component: {fileID: 520992466}
   - component: {fileID: 520992465}
+  - component: {fileID: 520992469}
   - component: {fileID: 520992464}
   - component: {fileID: 520992463}
+  - component: {fileID: 520992468}
   m_Layer: 0
   m_Name: TweenTester
   m_TagString: Untagged
@@ -333,6 +335,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520992468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520992462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2274dd55e1e7b434888ea81d0ba35c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startInput: 2
+  _inputButton: space
+  _frameRate: 30
+  _duration: 1
+  _targetVector: {x: 1, y: 2, z: 1}
+  _startVector: {x: 2, y: 1, z: 1}
+  _showDebug: 0
+  _useObjectLocation: 0
+  _forceFinalVectorEqualTargetVector: 0
+  _lerpType: 0
+--- !u!114 &520992469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520992462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879e2b6843eb10a45a71dc271643ea3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startInput: 2
+  _inputButton: space
+  _frameRate: 30
+  _duration: 1
+  _targetVector: {x: 1, y: 1, z: 1}
+  _startVector: {x: 0.5, y: 1, z: 1}
+  _showDebug: 0
+  _useObjectLocation: 0
+  _forceFinalVectorEqualTargetVector: 0
+  _lerpType: 0
 --- !u!1 &634116005
 GameObject:
   m_ObjectHideFlags: 0
